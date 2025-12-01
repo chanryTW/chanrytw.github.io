@@ -3,7 +3,7 @@ export const zh = {
   nav: { home: '首頁', about: '參數', experience: '任務日誌', skills: '配備技能', certs: '許可證', works: '任務產出', contact: '派發任務' },
   hero: {
     greeting: "連線中 // 歡迎派發任務",
-    role: '資深前端工程師',
+    role: '資深前端工程師 | 全端 | AI',
     subtitle: '一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19)多平台 SaaS 系統，如：國泰網路銀行、國泰智能投資 、ESG碳資產管理、EIP企業入口、郵件收發、長照、SCM供應鏈管理-DMS/EPM/MES/WMS等。',
     cta: '瞭解更多',
     scroll: '滾動',
@@ -29,7 +29,7 @@ export const zh = {
       proj_label: '項專案交付上線'
     }
   },
-  experience: { 
+  experience: {
     title: '任務日誌',
     items: {
       cub_lead: {
@@ -100,7 +100,7 @@ export const zh = {
       }
     }
   },
-  skills: { 
+  skills: {
     title: '配備技能',
     sys_info: '規格細節',
     cat_frontend: '前端 Front-end (專攻)',
@@ -225,7 +225,7 @@ export const zh = {
       typing_en: 'TQC 企業人才技能合格證書英文輸入實用級'
     }
   },
-  works: { 
+  works: {
     title: '任務產出',
     disclaimer: '僅展示部分可公開專案。',
     render_ok: '部署完成'

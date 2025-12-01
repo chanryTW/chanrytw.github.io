@@ -3,7 +3,7 @@ export const ja = {
   nav: { home: 'ホーム', about: 'プロフィール', experience: '経歴', skills: 'スキル', certs: '資格', works: '作品', contact: 'お問い合わせ' },
   hero: {
     greeting: "システムオンライン // ようこそ",
-    role: 'シニアフロントエンドエンジニア',
+    role: 'シニアフロントエンドエンジニア | Fullstack | AI',
     subtitle: 'フロントエンドアプリケーション開発に情熱を注ぐクリエイター。React(~19)やAngular(JS~19)を用いたマルチプラットフォームSaaSシステムの開発が得意です。実績：國泰インターネットバンキング、ロボアドバイザー、ESG炭素資産管理、企業EIP、メールシステム、長期介護、SCMサプライチェーン管理（DMS/EPM/MES/WMS）など。',
     cta: 'プロジェクトを見る',
     scroll: 'スクロールして開始',
@@ -29,7 +29,7 @@ export const ja = {
       proj_label: '完了プロジェクト'
     }
   },
-  experience: { 
+  experience: {
     title: '経歴',
     items: {
       cub_lead: {
@@ -100,7 +100,7 @@ export const ja = {
       }
     }
   },
-  skills: { 
+  skills: {
     title: 'スキル',
     sys_info: '技術仕様詳細',
     cat_frontend: 'フロントエンド (専門)',
@@ -225,7 +225,7 @@ export const ja = {
       typing_en: 'TQC 英語入力 実用級'
     }
   },
-  works: { 
+  works: {
     title: '作品',
     disclaimer: '守秘義務契約により、一部の公開可能な個人または練習プロジェクトのみを表示しています。',
     render_ok: 'レンダリング完了'

@@ -3,7 +3,7 @@ export const en = {
   nav: { home: 'Home', about: 'About', experience: 'Experience', skills: 'Skills', certs: 'Certs', works: 'Works', contact: 'Contact' },
   hero: {
     greeting: "SYSTEM ONLINE // WELCOME",
-    role: 'Senior Front-End Engineer',
+    role: 'Senior Front-End Engineer | Fullstack | AI',
     subtitle: 'A creator passionate about frontend applications. Expert in developing React(~19) & Angular(JS~19) multi-platform SaaS systems, such as: Cathay Online Banking, Robo Invest, ESG Carbon Asset Management, Enterprise EIP, Mail Systems, Long-term Care, and SCM (DMS/EPM/MES/WMS).',
     cta: 'ACCESS PROJECTS',
     scroll: 'SCROLL TO INITIATE',
@@ -29,7 +29,7 @@ export const en = {
       proj_label: 'Projects Shipped'
     }
   },
-  experience: { 
+  experience: {
     title: 'Experience',
     items: {
       cub_lead: {
@@ -100,7 +100,7 @@ export const en = {
       }
     }
   },
-  skills: { 
+  skills: {
     title: 'Skills',
     sys_info: 'TECHNICAL_SPECS',
     cat_frontend: 'Front-end (Specialist)',
@@ -225,7 +225,7 @@ export const en = {
       typing_en: 'TQC English Typing (Practical)'
     }
   },
-  works: { 
+  works: {
     title: 'Works',
     disclaimer: 'Due to non-disclosure agreements, only selected public or practice projects are displayed.',
     render_ok: 'RENDER_OK'
