@@ -170,11 +170,19 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { key: "node", level: 85 },
       { key: "auto_test", level: 80 },
-      { key: "python", level: 85 },
       { key: "php", level: 80 },
       { key: "sql", level: 85 },
-      { key: "data_mining", level: 75 },
       { key: "other_backend", level: 70 },
+    ],
+  },
+  {
+    id: "ai",
+    titleKey: "skills.cat_ai",
+    skills: [
+      { key: "ai_stack", level: 95 },
+      { key: "python", level: 90 },
+      { key: "cloud_ops", level: 90 },
+      { key: "data_mining", level: 85 },
     ],
   },
 ];

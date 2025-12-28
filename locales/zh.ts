@@ -4,7 +4,7 @@ export const zh = {
   hero: {
     greeting: "連線中 // 歡迎派發任務",
     role: '資深前端工程師 | 全端 | AI',
-    subtitle: '一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19)多平台 SaaS 系統，如：國泰網路銀行、國泰智能投資 、ESG碳資產管理、EIP企業入口、郵件收發、長照、SCM供應鏈管理-DMS/EPM/MES/WMS等。',
+    subtitle: '一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19) 多平台 SaaS 系統，並整合 GenAI、RAG 與 GCP 打造 AI 應用。專案經歷包含：國泰網路銀行、國泰智能投資、ESG碳資產管理、EIP企業入口、SCM供應鏈管理等。',
     cta: '瞭解更多',
     scroll: '滾動',
     cards: {
@@ -23,7 +23,7 @@ export const zh = {
     exp: '經驗: 6+ 年',
     base: '據點: Taiwan Taipei / Remote',
     edu: '國立高雄科技大學 商務資訊應用研究所 理學碩士 M.S. NKUST, Taiwan',
-    text: "我是熱愛開發 SaaS 前端應用的 Chanry，工作狂個性使我做事嚴謹、具責任感、且學習力強，從高中到研究所皆為本科資訊專業，從而累積扎實基礎，能獨立且快速開發千萬、百萬專案產品，對於主管、業主需求能清楚理解並正確執行，從需求訪談、Prototype UI/UX、到前端開發、後端溝通等皆能獨立完成。框架擅長 React(~19)、Angular(JS~19)、JQ、NextJS、Qwik等。",
+    text: "我是熱愛開發 SaaS 前端應用的 Chanry，工作狂個性使我做事嚴謹、具責任感。從需求訪談、UI/UX 到全端開發皆能獨立完成。框架擅長 React(~19)、Angular(JS~19)、NextJS 等，近期更積極導入 Agentic AI 技術，包含 Multi-agent 協作、Semantic Search 與 ADK/MCP 開發。",
     stats: {
       exp_label: '年開發經驗',
       proj_label: '項專案交付上線'
@@ -106,6 +106,7 @@ export const zh = {
     cat_frontend: '前端 Front-end (專攻)',
     cat_design: '設計與其他 Design & Others',
     cat_backend: '後端 Back-end',
+    cat_ai: 'AI 智能應用 & 雲端 AI & Cloud',
     items: {
       frameworks: {
         name: '熟悉主流框架：React/Angular',
@@ -198,6 +199,14 @@ export const zh = {
       other_backend: {
         name: '其他後端語言',
         desc: '➜ 其他還撰寫過Java、C++、VB等後端語言經驗'
+      },
+      ai_stack: {
+        name: 'AI 智能應用開發 (Agentic AI)',
+        desc: '➜ 熟悉最新 AI Agent 開發技術，包括 RAG (檢索增強生成)、Multi-agent 多智能體協作系統、Semantic Search 語意搜尋。\n➜ 熟練運用 AGUI (Agentic GUI)、A2UI (Agent to UI) 設計模式，以及 ADK (Agent Development Kit)、MCP (Model Context Protocol) 等標準協議，打造新一代智能應用。'
+      },
+      cloud_ops: {
+        name: 'GCP 雲端架構',
+        desc: '➜ 具備 Google Cloud Platform (GCP) 服務部署與管理經驗，能夠運用 Vertex AI 進行模型部署與微調。\n➜ 使用 Cloud Run、Cloud Functions 實現 Serverless 架構，並整合 Cloud Build 建立 CI/CD 自動化流程。'
       }
     },
     certs: {

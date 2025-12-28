@@ -4,7 +4,7 @@ export const en = {
   hero: {
     greeting: "SYSTEM ONLINE // WELCOME",
     role: 'Senior Front-End Engineer | Fullstack | AI',
-    subtitle: 'A creator passionate about frontend applications. Expert in developing React(~19) & Angular(JS~19) multi-platform SaaS systems, such as: Cathay Online Banking, Robo Invest, ESG Carbon Asset Management, Enterprise EIP, Mail Systems, Long-term Care, and SCM (DMS/EPM/MES/WMS).',
+    subtitle: 'A creator passionate about frontend applications. Expert in developing React & Angular SaaS systems, integrating GenAI, RAG, and GCP technologies for intelligent solutions. Experience includes: Cathay Online Banking, Robo Invest, ESG Carbon Asset Management, and diverse Enterprise/SCM systems.',
     cta: 'ACCESS PROJECTS',
     scroll: 'SCROLL TO INITIATE',
     cards: {
@@ -23,7 +23,7 @@ export const en = {
     exp: 'EXP: 6+ YEARS',
     base: 'BASE: TAIPEI',
     edu: 'M.S. Business Info App, NKUST, Taiwan',
-    text: "I'm Chanry, a frontend engineer passionate about SaaS applications. My workaholic nature makes me rigorous, responsible, and a fast learner. With a CS background from high school to master's, I have a solid foundation to independently build high-scale products. I bridge the gap between stakeholders and execution, handling everything from requirements and UI/UX prototyping to frontend dev and backend integration. Proficient in React(~19), Angular(JS~19), jQuery, Next.js, Qwik, and more.",
+    text: "I'm Chanry, a frontend engineer passionate about SaaS applications. My workaholic nature makes me rigorous and responsible. I bridge the gap between stakeholders and execution, handling everything from UI/UX to fullstack dev. Proficient in React, Angular, and Next.js. Recently focused on Agentic AI development, mastering Multi-agent collaboration, Semantic Search, and MCP protocols.",
     stats: {
       exp_label: 'Years Experience',
       proj_label: 'Projects Shipped'
@@ -106,6 +106,7 @@ export const en = {
     cat_frontend: 'Front-end (Specialist)',
     cat_design: 'Design & Others',
     cat_backend: 'Back-end',
+    cat_ai: 'AI Engineering & Cloud',
     items: {
       frameworks: {
         name: 'Frameworks: React/Angular',
@@ -198,6 +199,14 @@ export const en = {
       other_backend: {
         name: 'Other Languages',
         desc: '➜ Java, C++, VB experience.'
+      },
+      ai_stack: {
+        name: 'AI Agentic Development',
+        desc: '➜ Modern AI Agent tech: RAG (Retrieval-Augmented Gen), Multi-agent systems, Semantic Search.\n➜ Mastering AGUI, A2UI design patterns, ADK (Agent Dev Kit) & MCP (Model Context Protocol).'
+      },
+      cloud_ops: {
+        name: 'GCP Cloud Architecture',
+        desc: '➜ Google Cloud Platform (GCP) management.\n➜ Vertex AI for model deployment/tuning.\n➜ Serverless with Cloud Run/Functions.\n➜ Cloud Build for CI/CD automation.'
       }
     },
     certs: {
