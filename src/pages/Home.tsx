@@ -1,9 +1,9 @@
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-import Globe3D from '../Globe3D';
-import ParticleBackground from '../ParticleBackground';
-import { NavBar } from '../NavBar';
-import { Footer } from '../Footer';
+import Globe3D from '../components/Globe3D';
+import ParticleBackground from '../components/ParticleBackground';
+import { NavBar } from '../components/NavBar';
+import { Footer } from '../components/Footer';
 import { Hero } from '../sections/Hero';
 import { About } from '../sections/About';
 import { Experience } from '../sections/Experience';

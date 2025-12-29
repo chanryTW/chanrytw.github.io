@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Code, Palette, Database, Terminal, Award, Hash, Brain } from 'lucide-react';
-import { SectionTitle } from '../ui/SectionTitle';
-import { RevealOnScroll } from '../ui/RevealOnScroll';
-import { SKILL_CATEGORIES, CERTIFICATIONS } from '../../constants';
+import { SectionTitle } from '../components/ui/SectionTitle';
+import { RevealOnScroll } from '../components/ui/RevealOnScroll';
+import { SKILL_CATEGORIES, CERTIFICATIONS } from '../constants';
 
 export const Skills: React.FC = () => {
    const { t } = useTranslation();

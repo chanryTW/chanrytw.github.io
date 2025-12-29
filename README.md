@@ -84,15 +84,25 @@ chanryPortfolioV2/
     ├── i18n.ts            # 國際化配置 (HTTP Backend)
     ├── types.ts           # TypeScript 型別定義
     ├── constants.ts       # 常數定義
-    ├── components/        # React 組件
-    │   ├── pages/        # 頁面組件 (Lazy Loaded)
-    │   │   ├── Home.tsx      # 首頁
-    │   │   └── StoryPage.tsx # GSAP 動畫故事頁
-    │   ├── sections/     # 首頁區塊組件
-    │   ├── ui/           # 可重用 UI 組件
-    │   ├── NavBar.tsx    # 導航欄
-    │   ├── Footer.tsx    # 頁尾
-    │   └── ...
+    ├── pages/            # 頁面組件 (Lazy Loaded)
+    │   ├── Home.tsx      # 首頁
+    │   └── StoryPage.tsx # GSAP 動畫故事頁
+    ├── sections/         # 首頁區塊組件
+    │   ├── Hero.tsx      # 英雄區塊
+    │   ├── About.tsx     # 關於區塊
+    │   ├── Experience.tsx # 經歷區塊
+    │   ├── Skills.tsx    # 技能區塊
+    │   ├── Works.tsx     # 作品區塊
+    │   └── Contact.tsx   # 聯絡區塊
+    └── components/       # 通用組件
+        ├── NavBar.tsx    # 導航欄
+        ├── Footer.tsx    # 頁尾
+        ├── Globe3D.tsx   # 3D 地球
+        ├── ParticleBackground.tsx
+        └── ui/          # 可重用 UI 組件
+            ├── GlassCard.tsx
+            ├── RevealOnScroll.tsx
+            └── SectionTitle.tsx
 ```
 
 ## 🎯 頁面路由

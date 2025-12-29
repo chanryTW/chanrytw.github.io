@@ -2,8 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Lazy load pages for better performance
-const Home = lazy(() => import('./components/pages/Home').then(module => ({ default: module.Home })));
-const StoryPage = lazy(() => import('./components/pages/StoryPage').then(module => ({ default: module.StoryPage })));
+const Home = lazy(() => import('./pages/Home').then(module => ({ default: module.Home })));
+const StoryPage = lazy(() => import('./pages/StoryPage').then(module => ({ default: module.StoryPage })));
 
 // Loading fallback component
 const LoadingFallback = () => (
