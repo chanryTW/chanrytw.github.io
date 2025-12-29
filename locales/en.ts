@@ -13,7 +13,7 @@ export const en = {
       style: { title: 'Styling', sub: 'Tailwind / CSS / UI' },
       webgl: { title: 'WebGL / 3D', sub: 'Three.js / R3F' },
       mobile: { title: 'Mobile Dev', sub: 'RWD / PWA / Hybrid' },
-      ai: { title: 'AI Engineering', sub: 'RAG / GenAI Integration' }
+      ai: { title: 'AI Engineering', sub: 'LLM / RAG / GenAI' }
     }
   },
   about: {
@@ -23,7 +23,7 @@ export const en = {
     exp: 'EXP: 6+ YEARS',
     base: 'BASE: TAIPEI',
     edu: 'M.S. Business Info App, NKUST, Taiwan',
-    text: "I'm Chanry, a frontend engineer passionate about SaaS applications. My workaholic nature makes me rigorous and responsible. I bridge the gap between stakeholders and execution, handling everything from UI/UX to fullstack dev. Proficient in React, Angular, and Next.js. Recently focused on Agentic AI development, mastering Multi-agent collaboration, Semantic Search, and MCP protocols.",
+    text: "I'm Chanry, a frontend engineer passionate about SaaS applications. My workaholic nature makes me rigorous and responsible. I bridge the gap between stakeholders and execution, handling everything from UI/UX to fullstack dev. Proficient in React(~19), Angular(JS~19), and Next.js. Recently focused on Agentic AI development, mastering Multi-agent collaboration, Semantic Search, and ADK/LangChain/MCP protocols.",
     stats: {
       exp_label: 'Years Experience',
       proj_label: 'Projects Shipped'
@@ -202,7 +202,19 @@ export const en = {
       },
       ai_stack: {
         name: 'AI Agentic Development',
-        desc: '➜ Modern AI Agent tech: RAG (Retrieval-Augmented Gen), Multi-agent systems, Semantic Search.\n➜ Mastering AGUI, A2UI design patterns, ADK (Agent Dev Kit) & MCP (Model Context Protocol).'
+        desc: '➜ Expert in cutting-edge AI Agent technologies: RAG (Retrieval-Augmented Generation), Multi-agent systems, Semantic Search.\n➜ Proficient in AGUI (Agentic GUI), A2UI (Agent to UI) design patterns, and ADK, LangChain, MCP protocols for next-gen AI applications.'
+      },
+      ai_prompt: {
+        name: 'Prompt & Fine-tuning',
+        desc: '➜ Advanced prompt engineering techniques: Chain-of-Thought, Few-shot learning, SDD, System prompts optimization.\n➜ Experience in LLM fine-tuning and model optimization for specific use cases.'
+      },
+      ai_integration: {
+        name: 'AI System Integration',
+        desc: '➜ Building production-grade AI applications: Chat AI Assistants, Intelligent Customer Service, Document Analysis Platform.\n➜ Implementing AI Guardrails to ensure output safety and compliance.\n➜ Integrating OCR, Document Parsing, Multimodal AI (Vision + Language) applications.'
+      },
+      ai_vector: {
+        name: 'Vector DB & Embeddings',
+        desc: '➜ Working with vector databases (Pinecone, Weaviate, Chroma) for semantic search.\n➜ Understanding of embeddings, similarity search, and RAG pipeline optimization.'
       },
       cloud_ops: {
         name: 'GCP Cloud Architecture',

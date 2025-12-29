@@ -3,8 +3,8 @@ export const zh = {
   nav: { home: '首頁', about: '參數', experience: '任務日誌', skills: '配備技能', certs: '許可證', works: '任務產出', contact: '派發任務' },
   hero: {
     greeting: "連線中 // 歡迎派發任務",
-    role: '資深前端工程師 | 全端 | AI',
-    subtitle: '一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19) 多平台 SaaS 系統，並整合 GenAI、RAG 與 GCP 打造 AI 應用。專案經歷包含：國泰網路銀行、國泰智能投資、ESG碳資產管理、EIP企業入口、SCM供應鏈管理等。',
+    role: '資深前端工程師 | 全端 | AI 應用開發',
+    subtitle: '一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19) 多平台 SaaS 系統，並使用 ADK/LangChain 打造 AI 應用。專案經歷包含：國泰網路銀行、國泰智能投資、ESG碳資產管理、EIP企業入口、SCM供應鏈管理等。',
     cta: '瞭解更多',
     scroll: '滾動',
     cards: {
@@ -23,7 +23,7 @@ export const zh = {
     exp: '經驗: 6+ 年',
     base: '據點: Taiwan Taipei / Remote',
     edu: '國立高雄科技大學 商務資訊應用研究所 理學碩士 M.S. NKUST, Taiwan',
-    text: "我是熱愛開發 SaaS 前端應用的 Chanry，工作狂個性使我做事嚴謹、具責任感。從需求訪談、UI/UX 到全端開發皆能獨立完成。框架擅長 React(~19)、Angular(JS~19)、NextJS 等，近期更積極導入 Agentic AI 技術，包含 Multi-agent 協作、Semantic Search 與 ADK/MCP 開發。",
+    text: "我是熱愛開發 SaaS 前端應用的 Chanry，工作狂個性使我做事嚴謹、具責任感。從需求訪談、UI/UX 到全端開發皆能獨立完成。框架擅長 React(~19)、Angular(JS~19)、NextJS 等，近期更積極導入 Agentic AI 技術，包含 Multi-agent 協作、Semantic Search 與 ADK/LangChain/MCP 開發。",
     stats: {
       exp_label: '年開發經驗',
       proj_label: '項專案交付上線'
@@ -104,9 +104,9 @@ export const zh = {
     title: '配備技能',
     sys_info: '規格細節',
     cat_frontend: '前端 Front-end (專攻)',
-    cat_design: '設計與其他 Design & Others',
+    cat_design: '設計與其他 Others',
     cat_backend: '後端 Back-end',
-    cat_ai: 'AI 智能應用 & 雲端 AI & Cloud',
+    cat_ai: 'AI 應用開發',
     items: {
       frameworks: {
         name: '熟悉主流框架：React/Angular',
@@ -201,8 +201,20 @@ export const zh = {
         desc: '➜ 其他還撰寫過Java、C++、VB等後端語言經驗'
       },
       ai_stack: {
-        name: 'AI 智能應用開發 (Agentic AI)',
-        desc: '➜ 熟悉最新 AI Agent 開發技術，包括 RAG (檢索增強生成)、Multi-agent 多智能體協作系統、Semantic Search 語意搜尋。\n➜ 熟練運用 AGUI (Agentic GUI)、A2UI (Agent to UI) 設計模式，以及 ADK (Agent Development Kit)、MCP (Model Context Protocol) 等標準協議，打造新一代智能應用。'
+        name: 'AI 應用開發 (Agentic AI)',
+        desc: '➜ 熟悉最新 AI Agent 開發技術，包括 RAG、Multi-agent、Semantic Search 語意搜尋。\n➜ 熟練運用 AGUI (Agentic GUI)、A2UI (Agent to UI) 設計模式，以及 ADK、LangChain、MCP 等標準協議，打造新一代 AI 應用。'
+      },
+      ai_prompt: {
+        name: 'Prompt & Fine-tuning',
+        desc: '➜ 熟悉進階 Prompt Engineering 技巧：Chain-of-Thought、Few-shot learning、SDD、System prompts 優化。\n➜ 具 LLM Fine-tuning 與模型優化經驗，針對特定場景調校最佳效能。'
+      },
+      ai_integration: {
+        name: 'AI 系統整合',
+        desc: '➜ 建構生產級 AI 應用：Chat AI 助理、智能客服系統、文件智能分析平台。\n➜ 實作 AI 護欄機制（Guardrails）確保輸出安全性與合規性。\n➜ 整合 OCR 文字辨識、文件解析、多模態 AI (Vision + Language) 應用。'
+      },
+      ai_vector: {
+        name: 'Vector DB & Embeddings',
+        desc: '➜ 熟悉向量資料庫（Pinecone、Weaviate、Chroma）應用於語意搜尋。\n➜ 理解 Embeddings、相似度搜尋與 RAG 管線優化技術。'
       },
       cloud_ops: {
         name: 'GCP 雲端架構',

@@ -13,7 +13,7 @@ export const ja = {
       style: { title: 'スタイリング', sub: 'Tailwind / CSS / UI' },
       webgl: { title: 'WebGL / 3D', sub: 'Three.js / R3F' },
       mobile: { title: 'モバイル開発', sub: 'RWD / PWA / Hybrid' },
-      ai: { title: 'AI エンジニアリング', sub: 'RAG / GenAI 統合' }
+      ai: { title: 'AI エンジニアリング', sub: 'LLM / RAG / GenAI' }
     }
   },
   about: {
@@ -23,7 +23,7 @@ export const ja = {
     exp: '経験: 6年以上',
     base: '拠点: 台北',
     edu: '国立高雄科技大学 ビジネス情報応用研究所 修士号 M.S. NKUST, Taiwan',
-    text: "SaaSフロントエンド開発を愛するChanryです。仕事熱心な性格で、厳格かつ責任感を持ち、学習意欲も旺盛です。高校から大学院まで情報工学を専攻し、強固な基礎を築きました。数百万規模のプロジェクトを単独かつ迅速に開発可能です。要件定義からUI/UXプロトタイプ、フロントエンド実装、バックエンド連携まで、ステークホルダーの要望を的確に理解し実行します。得意フレームワーク：React(~19)、Angular(JS~19)、jQuery、Next.js、Qwikなど。",
+    text: "SaaSフロントエンド開発を愛するChanryです。仕事熱心な性格で、厳格かつ責任感を持ち、学習意欲も旺盛です。要件定義からUI/UXプロトタイプ、フロントエンド実装、バックエンド連携まで、ステークホルダーの要望を的確に理解し実行します。得意フレームワーク：React(~19)、Angular(JS~19)、Next.jsなど。最近はAgentic AI開発に注力し、Multi-agent協作、Semantic Search、ADK/LangChain/MCPプロトコルを習得しています。",
     stats: {
       exp_label: '年の開発経験',
       proj_label: '完了プロジェクト'
@@ -106,6 +106,7 @@ export const ja = {
     cat_frontend: 'フロントエンド (専門)',
     cat_design: 'デザイン & その他',
     cat_backend: 'バックエンド',
+    cat_ai: 'AI エンジニアリング & クラウド',
     items: {
       frameworks: {
         name: '主要フレームワーク：React/Angular',
@@ -198,6 +199,26 @@ export const ja = {
       other_backend: {
         name: 'その他の言語',
         desc: '➜ Java、C++、VBなどの記述経験。'
+      },
+      ai_stack: {
+        name: 'AI Agentic 開発',
+        desc: '➜ 最先端のAI Agent技術に精通：RAG（Retrieval-Augmented Generation）、Multi-agentシステム、Semantic Search。\n➜ AGUI（Agentic GUI）、A2UI（Agent to UI）デザインパターン、ADK、LangChain、MCPプロトコルを活用した次世代AIアプリケーション開発。'
+      },
+      ai_prompt: {
+        name: 'Prompt & Fine-tuning',
+        desc: '➜ 高度なPrompt Engineeringテクニック：Chain-of-Thought、Few-shot learning、SDD、System prompts最適化。\n➜ 特定のユースケースに対するLLMファインチューニングとモデル最適化の経験。'
+      },
+      ai_integration: {
+        name: 'AI システム統合',
+        desc: '➜ プロダクション級AIアプリケーション構築：Chat AIアシスタント、インテリジェントカスタマーサービス、ドキュメント分析プラットフォーム。\n➜ AIガードレール（Guardrails）実装で安全性とコンプライアンスを確保。\n➜ OCR文字認識、ドキュメント解析、マルチモーダルAI (Vision + Language) 統合。'
+      },
+      ai_vector: {
+        name: 'Vector DB & Embeddings',
+        desc: '➜ セマンティック検索のためのベクトルデータベース（Pinecone、Weaviate、Chroma）活用。\n➜ embeddings、類似度検索、RAGパイプライン最適化の理解。'
+      },
+      cloud_ops: {
+        name: 'GCP クラウドアーキテクチャ',
+        desc: '➜ Google Cloud Platform（GCP）サービスのデプロイと管理経験。\n➜ Vertex AIを使用したモデルデプロイとファインチューニング。\n➜ Cloud Run、Cloud Functionsを使用したServerlessアーキテクチャ実装。\n➜ Cloud BuildによるCI/CD自動化の統合。'
       }
     },
     certs: {
