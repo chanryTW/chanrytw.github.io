@@ -1,0 +1,301 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "參數",
+    "experience": "任務日誌",
+    "skills": "配備技能",
+    "certs": "許可證",
+    "works": "任務產出",
+    "contact": "派發任務"
+  },
+  "hero": {
+    "greeting": "連線中 // 歡迎派發任務",
+    "role": "資深前端工程師 | 全端 | AI 應用開發",
+    "subtitle": "一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19) 多平台 SaaS 系統，並使用 ADK/LangChain 打造 AI 應用。專案經歷包含：國泰網路銀行、國泰智能投資、ESG碳資產管理、EIP企業入口、SCM供應鏈管理等。",
+    "cta": "瞭解更多",
+    "scroll": "滾動",
+    "cards": {
+      "arch": {
+        "title": "架構設計",
+        "sub": "React / Next / Angular"
+      },
+      "perf": {
+        "title": "效能優化",
+        "sub": "Core Vitals / SEO"
+      },
+      "style": {
+        "title": "視覺樣式",
+        "sub": "Tailwind / CSS / UI"
+      },
+      "webgl": {
+        "title": "3D 互動",
+        "sub": "Three.js / R3F"
+      },
+      "mobile": {
+        "title": "移動端開發",
+        "sub": "RWD / PWA / Hybrid"
+      },
+      "ai": {
+        "title": "AI 應用開發",
+        "sub": "LLM / RAG / GenAI"
+      }
+    }
+  },
+  "about": {
+    "title": "參數",
+    "card_title": "生物識別證",
+    "class": "類別: 資深前端工程師",
+    "exp": "經驗: 6+ 年",
+    "base": "據點: Taiwan Taipei / Remote",
+    "edu": "國立高雄科技大學 商務資訊應用研究所 理學碩士 M.S. NKUST, Taiwan",
+    "text": "我是熱愛開發 SaaS 前端應用的 Chanry，工作狂個性使我做事嚴謹、具責任感。從需求訪談、UI/UX 到全端開發皆能獨立完成。框架擅長 React(~19)、Angular(JS~19)、NextJS 等，近期更積極導入 Agentic AI 技術，包含 Multi-agent 協作、Semantic Search 與 ADK/LangChain/MCP 開發。",
+    "stats": {
+      "exp_label": "年開發經驗",
+      "proj_label": "項專案交付上線"
+    }
+  },
+  "experience": {
+    "title": "任務日誌",
+    "items": {
+      "cub_lead": {
+        "role": "前端開發組長",
+        "company": "國泰世華銀行 DDT中心 Mybank 網路銀行",
+        "period": "2024/06 - PRESENT",
+        "desc": ""
+      },
+      "cub_robo": {
+        "role": "前端工程師",
+        "company": "國泰世華銀行 DDT中心 ROBO 智能投資",
+        "period": "2023/05 - 2024/06",
+        "desc": ""
+      },
+      "teco": {
+        "role": "前端工程師",
+        "company": "TECO - ITTS 研發中心",
+        "period": "2021/04 - 2023/05",
+        "desc": ""
+      },
+      "military": {
+        "role": "退伍",
+        "company": "高雄黃埔陸軍官校南訓中心",
+        "period": "2021/01",
+        "desc": ""
+      },
+      "master": {
+        "role": "碩士畢業",
+        "company": "國立高雄科技大學 商務資訊應用研究所",
+        "period": "2020/07",
+        "desc": ""
+      },
+      "mirdc": {
+        "role": "實習",
+        "company": "財團法人金屬工業研究發展中心 產研組",
+        "period": "2017/07 - 2019/09",
+        "desc": ""
+      },
+      "bachelor": {
+        "role": "學士畢業",
+        "company": "國立高雄科技大學 資訊管理系",
+        "period": "2018/06",
+        "desc": ""
+      },
+      "digi": {
+        "role": "結訓研習生",
+        "company": "經濟部工業局 DIGI+ 跨域人才加速躍升計劃",
+        "period": "2017/06 - 2018/01",
+        "desc": ""
+      },
+      "yaja": {
+        "role": "實習",
+        "company": "亞家科技股份有限公司",
+        "period": "2017/07 - 2018/01",
+        "desc": ""
+      },
+      "cio": {
+        "role": "系學會 資訊長",
+        "company": "大學期間擔任系學會",
+        "period": "2017/03 - 2018/12",
+        "desc": ""
+      },
+      "highschool": {
+        "role": "資處科畢業",
+        "company": "國立暨南國際大學附屬高級中學",
+        "period": "2016/06",
+        "desc": ""
+      }
+    }
+  },
+  "skills": {
+    "title": "配備技能",
+    "sys_info": "規格細節",
+    "cat_frontend": "前端 Front-end (專攻)",
+    "cat_design": "設計與其他 Others",
+    "cat_backend": "後端 Back-end",
+    "cat_ai": "AI 應用開發",
+    "items": {
+      "frameworks": {
+        "name": "熟悉主流框架：React/Angular",
+        "desc": "➜ 熟悉MVVM 架構，如雙向資料繫結、依賴注入、關注點分離等特性。\n➜ 對於 Angular 框架的發展和變化有豐富的經驗，從初版 JS 1.0開始使用該框架一路至今日的版本 15。\n➜ 能活用主流元件與自製共用元件，協助公司製作公版框架達到快速開發\n➜ 持續精進活用新方法至專案，如Standalone、Lazy loading、Signal、RxJS、NgRx等\n➜ 跨平台：WEB外，也開發過NativeScript桌面應用、Ionic移動應用\n➜ 單元測試：專案時間允許下可開發Karma單元測試，提高系統穩定性\n➜ 國際化：i18n多國語系切換(translate/transloco)，Time Zone多時區處理(UTC)\n➜ 守衛驗證：Guards、Resolvers、JWT、SSO"
+      },
+      "html": {
+        "name": "HTML5標記語言",
+        "desc": "➜ 除了基礎知識扎實外，懂得應用新版的語意化標籤、表單進階操作、新選擇器等特性。"
+      },
+      "css": {
+        "name": "CSS3樣式表語言",
+        "desc": "➜ 能活用Sass/SCSS預處理器：變數、函式、Nesting嵌套、Mixins混入、Extends共用等方法，提高撰寫效率、易維護、可讀性，也方便達成如「Theme主題切換」、「UI大小調整」效果\n➜ 樣式管理方式應用過OOCSS、SMACSS、BEM、自製公司規範"
+      },
+      "js_ts": {
+        "name": "JavaScript ES6+ / TypeScript",
+        "desc": "➜ 能活用：物件、事件、監聽、巡訪、Ajax、靜態類型、泛型等基礎概念，與ES6解構賦值、Symbols、Maps/Sets、Promises、Spread syntax、區塊、箭頭等新方法"
+      },
+      "rwd": {
+        "name": "響應式 RWD",
+        "desc": "➜ 能夠設計和撰寫符合規格文件的 RWD 專案，熟悉主流斷點，並應用 bootstrap、pure、Layui、自製等格線系統"
+      },
+      "storage": {
+        "name": "前端存儲",
+        "desc": "➜ 熟悉Local/Session Storage以外的存儲方式，如indexDB、WebSQL"
+      },
+      "security": {
+        "name": "前端安全",
+        "desc": "➜ 具有銀行內部系統專案開發經驗，瞭解弱點掃描、資安、常見前端攻擊手法，如CSRF、XSS等"
+      },
+      "dom": {
+        "name": "DOM 操作",
+        "desc": "➜ 開發/維護過JQuery專案，熟練掌握JS原生/JQ操作DOM"
+      },
+      "ui_ux": {
+        "name": "UI/UX 設計",
+        "desc": "➜ Adobe XD > Figma > Sketch > 墨刀，擁有多專案(Web/App)UI/UX設計經驗，能夠清楚了解主管或業主的需求，並產出 guideline、UI Flow設計文件"
+      },
+      "code_style": {
+        "name": "程式風格標準化",
+        "desc": "➜ 導入ESLint檢查、遵守Airbnb或公司自定義規範"
+      },
+      "git": {
+        "name": "版控 Git/TFVC",
+        "desc": "➜ 工具使用 git-tf、GitLab、GitHub，搭配 Sourcetree 或直接 CLI 操控"
+      },
+      "data_viz": {
+        "name": "資料視覺化",
+        "desc": "➜ 擅長開發2B系統最常見的Dashboard，並熟悉數據可視化庫，如D3.js、Chart.js、amChart等"
+      },
+      "three_d": {
+        "name": "3D 應用",
+        "desc": "➜ 曾開發過潤泰建設案場3D檢視、WMS倉儲智慧堆疊，熟悉webgl、three.js等技術，對於數位孿生也相當感興趣"
+      },
+      "wordpress": {
+        "name": "WordPress 開發",
+        "desc": "➜ 能夠獨立架設前後端整合的WordPress網站，並完成SEO優化、SSL驗證、插件和伺服器設置"
+      },
+      "other_tech": {
+        "name": "其他技術應用",
+        "desc": "➜ 具有AI臉部辨識登入、SSO單入口、系統內頁籤機制、LINE/WeChat通知串接、綠界金流串接、Web RTC串流視訊、WebSocket即時Dashboard、報表/QR Code標籤列印等技術應用經驗"
+      },
+      "tools": {
+        "name": "工具與學習",
+        "desc": "➜ 主要使用Mac進行開發，熟悉的 IDE 工具包括 VS Code、Sublime 和 Visual Studio\n➜ 熟練使用 Microsoft Office 系列辦公軟體\n➜ 善⽤資源自主學習，如Pinterest、DIGI+、Dribbble、ChartGPT、Hahow、LeetCode等平台"
+      },
+      "node": {
+        "name": "Node.js 後端",
+        "desc": "➜ 能架設Node.js後端API，串接前端應⽤，或自架模擬後端供前端開發"
+      },
+      "auto_test": {
+        "name": "自動化測試",
+        "desc": "➜ 熟悉後端Python並搭配Selenium或Katalon工具進行自動化測試，以檢驗前端功能"
+      },
+      "python": {
+        "name": "Python 爬蟲/RPA",
+        "desc": "➜ 熟練運用Python進行網路爬蟲和RPA，曾協助⾦屬中⼼簡化瑣碎工作流程，提高了整體工作效率達到91.7%"
+      },
+      "php": {
+        "name": "PHP 開發",
+        "desc": "➜ 能夠利用PHP結合DB建構含會員、購物⾞、CRUD之系統網站"
+      },
+      "sql": {
+        "name": "SQL 資料庫",
+        "desc": "➜ 熟悉SQL指令的撰寫，具備MySQL、MongoDB和Firebase等資料庫使用經驗"
+      },
+      "data_mining": {
+        "name": "Data Mining / ML",
+        "desc": "➜ 具Data Mining、Machine Learning相關知識，曾實作過Kaggle競賽專案"
+      },
+      "other_backend": {
+        "name": "其他後端語言",
+        "desc": "➜ 其他還撰寫過Java、C++、VB等後端語言經驗"
+      },
+      "ai_stack": {
+        "name": "AI 應用開發 (Agentic AI)",
+        "desc": "➜ 熟悉最新 AI Agent 開發技術，包括 RAG、Multi-agent、Semantic Search 語意搜尋。\n➜ 熟練運用 AGUI (Agentic GUI)、A2UI (Agent to UI) 設計模式，以及 ADK、LangChain、MCP 等標準協議，打造新一代 AI 應用。"
+      },
+      "ai_prompt": {
+        "name": "Prompt & Fine-tuning",
+        "desc": "➜ 熟悉進階 Prompt Engineering 技巧：Chain-of-Thought、Few-shot learning、SDD、System prompts 優化。\n➜ 具 LLM Fine-tuning 與模型優化經驗，針對特定場景調校最佳效能。"
+      },
+      "ai_integration": {
+        "name": "AI 系統整合",
+        "desc": "➜ 建構生產級 AI 應用：Chat AI 助理、智能客服系統、文件智能分析平台。\n➜ 實作 AI 護欄機制（Guardrails）確保輸出安全性與合規性。\n➜ 整合 OCR 文字辨識、文件解析、多模態 AI (Vision + Language) 應用。"
+      },
+      "ai_vector": {
+        "name": "Vector DB & Embeddings",
+        "desc": "➜ 熟悉向量資料庫（Pinecone、Weaviate、Chroma）應用於語意搜尋。\n➜ 理解 Embeddings、相似度搜尋與 RAG 管線優化技術。"
+      },
+      "cloud_ops": {
+        "name": "GCP 雲端架構",
+        "desc": "➜ 具備 Google Cloud Platform (GCP) 服務部署與管理經驗，能夠運用 Vertex AI 進行模型部署與微調。\n➜ 使用 Cloud Run、Cloud Functions 實現 Serverless 架構，並整合 Cloud Build 建立 CI/CD 自動化流程。"
+      }
+    },
+    "certs": {
+      "title": "許可證",
+      "digi": "經濟部工業局DIGI⁺ Talent計畫之結訓研習生(ECOM)",
+      "mobile": "行動裝置程式設計師（初級）學程證明",
+      "soft_app_b": "電腦軟體應用技能檢定（乙級）學程證明",
+      "ecom": "電子商務學程證明",
+      "erp": "企業電子化軟體用師-ERP軟體應用-配銷模組（鼎新）證書",
+      "assist": "企業電子化助理規劃師證書",
+      "tqc_oop": "TQC 專業設計人才認證合格證書物件導向程式語言",
+      "tqc_ecom": "TQC 企業人才技能合格證書電子商務概論 專業級",
+      "tqc_pm": "TQC 企業人才技能合格證書專案管理概論 專業級",
+      "tqc_proj": "TQC 企業人才技能合格證書Project 2007 進階級",
+      "biz_mgmt": "中華民國全國商業總會商業管理基礎知能",
+      "stats": "三星統計調查與研究方法分析師",
+      "mos": "Microsoft Office Specialist 國際Office證照",
+      "english": "中華民國商業職業教育學會英語能力測驗第四級",
+      "lttc": "LTTC 全民英語能力分級檢定測驗初級初試",
+      "accounting": "中華民國技術士證會計事務-資訊丙級",
+      "soft_app_c": "中華民國技術士證電腦軟體應用丙級",
+      "soft_design": "中華民國技術士證電腦軟體設計丙級",
+      "web_design": "中華民國技術士證網頁設計丙級",
+      "typing_cn": "TQC 企業人才技能合格證書中文輸入進階級",
+      "typing_en": "TQC 企業人才技能合格證書英文輸入實用級"
+    }
+  },
+  "works": {
+    "title": "任務產出",
+    "disclaimer": "僅展示部分可公開專案。",
+    "render_ok": "部署完成"
+  },
+  "contact": {
+    "title": "派發任務",
+    "heading": "派發新任務",
+    "link_est": "連線已建立",
+    "text": "準備好開始合作了嗎？請提供您的任務數據。",
+    "send": "開始派發",
+    "secure": "安全頻道加密中 // SHA-256",
+    "no_logs": "無訪問記錄留存"
+  },
+  "footer": {
+    "rights": "設計與開發 by Chanry",
+    "links": {
+      "github": "GITHUB",
+      "linkedin": "LINKEDIN",
+      "source": "原始碼"
+    }
+  },
+  "sys": {
+    "status": "系統狀態: 穩定",
+    "loc": "座標: 25.038201364580033° N, 121.56916701712402° E",
+    "fps": "禎數: 120FPS"
+  }
+}
