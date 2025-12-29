@@ -1,163 +1,173 @@
 <!DOCTYPE html>
 <html lang="zh-TW" translate="no">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO Meta Tags -->
-    <title>Chanry 廖詮睿 | 前端應用 | 網頁設計 | 系統開發</title>
-    <meta
-      name="description"
-      content="Chanry 廖詮睿 | 專注於前端應用、網頁設計與系統開發，擁有豐富的 React、Angular、Next.js、TypeScript 經驗，致力於打造優質使用者體驗。"
-    />
-    <meta
-      name="keywords"
-      content="Frontend Engineer, Senior Developer, React, Angular, TypeScript, Three.js, WebGL, UI/UX, Portfolio, Taiwan, Chanry, 廖詮睿"
-    />
-    <meta name="author" content="Chanry" />
-    <meta name="robots" content="index, follow" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://chanrytw.github.io/" />
-    <meta
-      property="og:title"
-      content="Chanry 廖詮睿 | 前端應用 | 網頁設計 | 系統開發"
-    />
-    <meta
-      property="og:description"
-      content="Immersive 3D portfolio showcasing high-performance web applications, architecture design, and creative development."
-    />
+  <!-- SEO Meta Tags -->
+  <title>Chanry 廖詮睿 | 前端應用 | 網頁設計 | 系統開發</title>
+  <meta name="description"
+    content="Chanry 廖詮睿 | 專注於前端應用、網頁設計與系統開發，擁有豐富的 React、Angular、Next.js、TypeScript 經驗，致力於打造優質使用者體驗。" />
+  <meta name="keywords"
+    content="Frontend Engineer, Senior Developer, React, Angular, TypeScript, Three.js, WebGL, UI/UX, Portfolio, Taiwan, Chanry, 廖詮睿" />
+  <meta name="author" content="Chanry" />
+  <meta name="robots" content="index, follow" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://chanrytw.github.io/" />
-    <meta
-      property="twitter:title"
-      content="Chanry 廖詮睿 | 前端應用 | 網頁設計 | 系統開發"
-    />
-    <meta
-      property="twitter:description"
-      content="Immersive 3D portfolio showcasing high-performance web applications, architecture design, and creative development."
-    />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://chanrytw.github.io/" />
+  <meta property="og:title" content="Chanry 廖詮睿 | 前端應用 | 網頁設計 | 系統開發" />
+  <meta property="og:description"
+    content="Immersive 3D portfolio showcasing high-performance web applications, architecture design, and creative development." />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Site favicon -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <!-- Fallback for older browsers -->
-    <link rel="alternate icon" href="/favicon.svg" />
-    <meta name="theme-color" content="#030014" />
-    <style>
-      :root {
-        --bg-dark: #030014;
-        --glass-border: rgba(255, 255, 255, 0.08);
-        --glass-bg: rgba(255, 255, 255, 0.03);
-        --neon-cyan: #00f0ff;
-        --neon-purple: #bd00ff;
-      }
-      body {
-        font-family: "Inter", sans-serif;
-        background-color: var(--bg-dark);
-        color: #e2e8f0;
-        overflow-x: hidden;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      .font-display {
-        font-family: "Space Grotesk", sans-serif;
-      }
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://chanrytw.github.io/" />
+  <meta property="twitter:title" content="Chanry 廖詮睿 | 前端應用 | 網頁設計 | 系統開發" />
+  <meta property="twitter:description"
+    content="Immersive 3D portfolio showcasing high-performance web applications, architecture design, and creative development." />
 
-      /* Global Noise Overlay */
-      .noise-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 9999;
-        opacity: 0.04;
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-      }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backgroundSize: {
+            "300%": "300%",
+          },
+          animation: {
+            gradient: "gradient 8s ease infinite",
+          },
+          keyframes: {
+            gradient: {
+              "0%, 100%": { backgroundPosition: "0% 50%" },
+              "50%": { backgroundPosition: "100% 50%" },
+            },
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;500;700&display=swap"
+    rel="stylesheet" />
+  <!-- Site favicon -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <!-- Fallback for older browsers -->
+  <link rel="alternate icon" href="/favicon.svg" />
+  <meta name="theme-color" content="#030014" />
+  <style>
+    :root {
+      --bg-dark: #030014;
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --glass-bg: rgba(255, 255, 255, 0.03);
+      --neon-cyan: #00f0ff;
+      --neon-purple: #bd00ff;
+    }
 
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 4px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #030014;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #334155;
-        border-radius: 0;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #00f0ff;
-      }
+    body {
+      font-family: "Inter", sans-serif;
+      background-color: var(--bg-dark);
+      color: #e2e8f0;
+      overflow-x: hidden;
+    }
 
-      .text-glow {
-        text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
-      }
+    h1,
+    h2,
+    h3,
+    h4,
+    .font-display {
+      font-family: "Space Grotesk", sans-serif;
+    }
 
-      .clip-corner {
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 95% 100%, 0 100%);
-      }
+    /* Global Noise Overlay */
+    .noise-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
 
-      .clip-corner-tr {
-        clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 0 100%);
-      }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
 
-      /* Tech Button */
-      .btn-glitch {
-        position: relative;
-        overflow: hidden;
-      }
-      .btn-glitch::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-          90deg,
+    ::-webkit-scrollbar-track {
+      background: #030014;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 0;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #00f0ff;
+    }
+
+    .text-glow {
+      text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+    }
+
+    .clip-corner {
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 95% 100%, 0 100%);
+    }
+
+    .clip-corner-tr {
+      clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 0 100%);
+    }
+
+    /* Tech Button */
+    .btn-glitch {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-glitch::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg,
           transparent,
           rgba(255, 255, 255, 0.4),
-          transparent
-        );
-        transition: 0.5s;
-      }
-      .btn-glitch:hover::before {
-        left: 100%;
-      }
-    </style>
+          transparent);
+      transition: 0.5s;
+    }
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-T0VTNJR8PK"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+    .btn-glitch:hover::before {
+      left: 100%;
+    }
+  </style>
 
-      gtag("config", "G-T0VTNJR8PK");
-    </script>
-  </head>
-  <body translate="no">
-    <div class="noise-overlay"></div>
-    <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
-  </body>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T0VTNJR8PK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-T0VTNJR8PK");
+  </script>
+</head>
+
+<body translate="no">
+  <div class="noise-overlay"></div>
+  <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+
 </html>

@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 
-const ParticleBackground: React.FC = () => {
+interface ParticleBackgroundProps {
+  className?: string;
+}
+
+const ParticleBackground: React.FC<ParticleBackgroundProps> = ({ className = '' }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -21,14 +25,14 @@ const ParticleBackground: React.FC = () => {
     resize();
 
     // Enhanced particle system
-    const particles: { 
-      x: number; y: number; 
-      size: number; 
-      speedX: number; speedY: number; 
+    const particles: {
+      x: number; y: number;
+      size: number;
+      speedX: number; speedY: number;
       alpha: number;
       type: 'circle' | 'square';
     }[] = [];
-    
+
     const particleCount = 150; // Increased count
 
     for (let i = 0; i < particleCount; i++) {
@@ -45,7 +49,7 @@ const ParticleBackground: React.FC = () => {
 
     const animate = () => {
       ctx.clearRect(0, 0, width, height);
-      
+
       // Update and draw particles
       particles.forEach((p, i) => {
         p.x += p.speedX;
@@ -56,33 +60,33 @@ const ParticleBackground: React.FC = () => {
         if (p.y < 0) p.y = height;
         if (p.y > height) p.y = 0;
 
-        ctx.fillStyle = p.type === 'square' 
+        ctx.fillStyle = p.type === 'square'
           ? `rgba(189, 0, 255, ${p.alpha})` // Purple for squares
           : `rgba(0, 240, 255, ${p.alpha})`; // Cyan for circles
-        
+
         ctx.beginPath();
         if (p.type === 'square') {
-           ctx.rect(p.x, p.y, p.size * 1.5, p.size * 1.5);
+          ctx.rect(p.x, p.y, p.size * 1.5, p.size * 1.5);
         } else {
-           ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
         }
         ctx.fill();
 
         // Draw connections if close enough (Networking effect)
         for (let j = i + 1; j < particles.length; j++) {
-           const p2 = particles[j];
-           const dx = p.x - p2.x;
-           const dy = p.y - p2.y;
-           const distance = Math.sqrt(dx * dx + dy * dy);
+          const p2 = particles[j];
+          const dx = p.x - p2.x;
+          const dy = p.y - p2.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
 
-           if (distance < 100) {
-              ctx.beginPath();
-              ctx.strokeStyle = `rgba(0, 240, 255, ${0.15 * (1 - distance / 100)})`;
-              ctx.lineWidth = 0.5;
-              ctx.moveTo(p.x, p.y);
-              ctx.lineTo(p2.x, p2.y);
-              ctx.stroke();
-           }
+          if (distance < 100) {
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(0, 240, 255, ${0.15 * (1 - distance / 100)})`;
+            ctx.lineWidth = 0.5;
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(p2.x, p2.y);
+            ctx.stroke();
+          }
         }
       });
 
@@ -94,9 +98,9 @@ const ParticleBackground: React.FC = () => {
   }, []);
 
   return (
-    <canvas 
-      ref={canvasRef} 
-      className="fixed top-0 left-0 w-full h-full pointer-events-none z-0 opacity-50"
+    <canvas
+      ref={canvasRef}
+      className={`fixed top-0 left-0 w-full h-full pointer-events-none z-0 opacity-50 ${className}`}
     />
   );
 };

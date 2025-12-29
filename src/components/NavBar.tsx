@@ -98,7 +98,7 @@ export const NavBar: React.FC = () => {
             to="/story"
             className="hidden sm:block text-white border border-white/20 px-6 py-2.5 text-sm font-bold uppercase tracking-wider hover:bg-white/10 transition-colors clip-corner-tr"
           >
-            STORY
+            Story Version
           </Link>
 
           <button
