@@ -1,0 +1,301 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "プロフィール",
+    "experience": "経歴",
+    "skills": "スキル",
+    "certs": "資格",
+    "works": "作品",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "greeting": "システムオンライン // ようこそ",
+    "role": "シニアフロントエンドエンジニア | Fullstack | AI",
+    "subtitle": "フロントエンドアプリケーション開発に情熱を注ぐクリエイター。React(~19)やAngular(JS~19)を用いたマルチプラットフォームSaaSシステムの開発が得意です。実績：國泰インターネットバンキング、ロボアドバイザー、ESG炭素資産管理、企業EIP、メールシステム、長期介護、SCMサプライチェーン管理（DMS/EPM/MES/WMS）など。",
+    "cta": "プロジェクトを見る",
+    "scroll": "スクロールして開始",
+    "cards": {
+      "arch": {
+        "title": "アーキテクチャ",
+        "sub": "React / Next / Angular"
+      },
+      "perf": {
+        "title": "パフォーマンス",
+        "sub": "Core Vitals / SEO"
+      },
+      "style": {
+        "title": "スタイリング",
+        "sub": "Tailwind / CSS / UI"
+      },
+      "webgl": {
+        "title": "WebGL / 3D",
+        "sub": "Three.js / R3F"
+      },
+      "mobile": {
+        "title": "モバイル開発",
+        "sub": "RWD / PWA / Hybrid"
+      },
+      "ai": {
+        "title": "AI エンジニアリング",
+        "sub": "LLM / RAG / GenAI"
+      }
+    }
+  },
+  "about": {
+    "title": "プロフィール",
+    "card_title": "生体認証データ",
+    "class": "クラス: 開発者",
+    "exp": "経験: 6年以上",
+    "base": "拠点: 台北",
+    "edu": "国立高雄科技大学 ビジネス情報応用研究所 修士号 M.S. NKUST, Taiwan",
+    "text": "SaaSフロントエンド開発を愛するChanryです。仕事熱心な性格で、厳格かつ責任感を持ち、学習意欲も旺盛です。要件定義からUI/UXプロトタイプ、フロントエンド実装、バックエンド連携まで、ステークホルダーの要望を的確に理解し実行します。得意フレームワーク：React(~19)、Angular(JS~19)、Next.jsなど。最近はAgentic AI開発に注力し、Multi-agent協作、Semantic Search、ADK/LangChain/MCPプロトコルを習得しています。",
+    "stats": {
+      "exp_label": "年の開発経験",
+      "proj_label": "完了プロジェクト"
+    }
+  },
+  "experience": {
+    "title": "経歴",
+    "items": {
+      "cub_lead": {
+        "role": "フロントエンド開発リーダー",
+        "company": "国泰世華銀行 DDTセンター Mybank インターネットバンキング",
+        "period": "2024/06 - 現在",
+        "desc": ""
+      },
+      "cub_robo": {
+        "role": "フロントエンドソフトウェアエンジニア",
+        "company": "国泰世華銀行 DDTセンター ROBO スマート投資",
+        "period": "2023/05 - 2024/06",
+        "desc": ""
+      },
+      "teco": {
+        "role": "フロントエンドソフトウェアエンジニア",
+        "company": "TECO - ITTS 研究開発センター",
+        "period": "2021/04 - 2023/05",
+        "desc": ""
+      },
+      "military": {
+        "role": "兵役満了",
+        "company": "高雄黄埔陸軍士官学校 南訓練センター",
+        "period": "2021/01",
+        "desc": ""
+      },
+      "master": {
+        "role": "修士号取得",
+        "company": "国立高雄科技大学 ビジネス情報応用研究所",
+        "period": "2020/07",
+        "desc": ""
+      },
+      "mirdc": {
+        "role": "インターン ネットワーク管理者",
+        "company": "財団法人金属工業研究発展センター 産研グループ",
+        "period": "2017/07 - 2019/09",
+        "desc": ""
+      },
+      "bachelor": {
+        "role": "学士号取得",
+        "company": "国立高雄科技大学 情報管理学科",
+        "period": "2018/06",
+        "desc": ""
+      },
+      "digi": {
+        "role": "研修生",
+        "company": "経済部工業局 DIGI+ クロスドメイン人材加速計画",
+        "period": "2017/06 - 2018/01",
+        "desc": ""
+      },
+      "yaja": {
+        "role": "インターン システムアナリスト",
+        "company": "Yaja Tech Co., Ltd.",
+        "period": "2017/07 - 2018/01",
+        "desc": ""
+      },
+      "cio": {
+        "role": "学生会 情報長",
+        "company": "大学期間中の学生会",
+        "period": "2017/03 - 2018/12",
+        "desc": ""
+      },
+      "highschool": {
+        "role": "情報処理科卒業",
+        "company": "国立暨南国際大学附属高級中学",
+        "period": "2016/06",
+        "desc": ""
+      }
+    }
+  },
+  "skills": {
+    "title": "スキル",
+    "sys_info": "技術仕様詳細",
+    "cat_frontend": "フロントエンド (専門)",
+    "cat_design": "デザイン & その他",
+    "cat_backend": "バックエンド",
+    "cat_ai": "AI エンジニアリング & クラウド",
+    "items": {
+      "frameworks": {
+        "name": "主要フレームワーク：React/Angular",
+        "desc": "➜ MVVMアーキテクチャ、双方向データバインディング、DI、関心の分離に精通。\n➜ 初版JS 1.0からv19までのAngularフレームワークの進化に豊富な経験。\n➜ 迅速な開発のための再利用可能なコンポーネントライブラリの作成。\n➜ 高度な概念：Standalone、Lazy loading、Signals、RxJS、NgRx。\n➜ クロスプラットフォーム：NativeScript（デスクトップ）、Ionic（モバイル）。\n➜ テスト：システム安定性のためのKarmaユニットテスト。\n➜ 国際化：i18n多言語切り替え（translate/transloco）、タイムゾーン処理（UTC）。\n➜ 認証：Guards、Resolvers、JWT、SSO。"
+      },
+      "html": {
+        "name": "HTML5 マークアップ",
+        "desc": "➜ 基礎知識に加え、セマンティックタグ、高度なフォーム操作、新しいセレクタの応用。"
+      },
+      "css": {
+        "name": "CSS3 / SCSS",
+        "desc": "➜ Sass/SCSSプリプロセッサ：変数、関数、ネスト、Mixins、Extendsの活用。\n➜ 設計手法：OOCSS、SMACSS、BEM、社内独自の規範。\n➜ テーマ切り替えやUIスケーリングの実装。"
+      },
+      "js_ts": {
+        "name": "JavaScript ES6+ / TypeScript",
+        "desc": "➜ コア：オブジェクト、イベント、リスナー、Ajax、静的型付け、ジェネリクス。\n➜ モダン：分割代入、Symbols、Maps/Sets、Promises、スプレッド構文、アロー関数。"
+      },
+      "rwd": {
+        "name": "レスポンシブ RWD",
+        "desc": "➜ 仕様書に準拠したRWDプロジェクトの設計と実装。\n➜ 主要なブレークポイントとグリッドシステム（Bootstrap、Pure、Layui、自作）に精通。"
+      },
+      "storage": {
+        "name": "フロントエンドストレージ",
+        "desc": "➜ Local/Session Storage以外にもIndexDB、WebSQLに精通。"
+      },
+      "security": {
+        "name": "フロントエンドセキュリティ",
+        "desc": "➜ 銀行内部システムの開発経験。\n➜ 脆弱性スキャン、CSRF、XSSなどの一般的な攻撃手法への対策。"
+      },
+      "dom": {
+        "name": "DOM 操作",
+        "desc": "➜ レガシーなjQueryプロジェクトの保守。\n➜ ネイティブJS/JQによるDOM操作に精通。"
+      },
+      "ui_ux": {
+        "name": "UI/UX デザイン",
+        "desc": "➜ Adobe XD > Figma > Sketch > 墨刀。Web/AppのUI/UX設計経験。\n➜ 要件に基づいたガイドラインとUIフローの作成。"
+      },
+      "code_style": {
+        "name": "コード標準化",
+        "desc": "➜ ESLintの導入。\n➜ Airbnbまたは社内規範の遵守。"
+      },
+      "git": {
+        "name": "バージョン管理 Git/TFVC",
+        "desc": "➜ git-tf、GitLab、GitHubの使用。\n➜ SourcetreeおよびCLI操作。"
+      },
+      "data_viz": {
+        "name": "データ可視化",
+        "desc": "➜ B2Bダッシュボード開発。\n➜ D3.js、Chart.js、amChartなどのライブラリ活用。"
+      },
+      "three_d": {
+        "name": "3D アプリケーション",
+        "desc": "➜ 不動産3Dビュー、WMSスマート倉庫スタッキング。\n➜ WebGL、Three.js技術、デジタルツインへの関心。"
+      },
+      "wordpress": {
+        "name": "WordPress 開発",
+        "desc": "➜ フルスタック構築、SEO、SSL、プラグイン、サーバー設定。"
+      },
+      "other_tech": {
+        "name": "その他の技術応用",
+        "desc": "➜ AI顔認証ログイン、SSO、システム内タブ、LINE/WeChat通知連携。\n➜ 決済ゲートウェイ（ECPay）、WebRTCストリーミング、WebSocketダッシュボード。\n➜ レポート/QRコードラベル印刷。"
+      },
+      "tools": {
+        "name": "ツールと学習",
+        "desc": "➜ Macでの開発。IDE：VS Code、Sublime、Visual Studio。\n➜ MS Officeスイート。\n➜ 自主学習：Pinterest、DIGI+、Dribbble、ChatGPT、LeetCodeなど。"
+      },
+      "node": {
+        "name": "Node.js バックエンド",
+        "desc": "➜ フロントエンド連携用API構築、またはモックサーバー構築。"
+      },
+      "auto_test": {
+        "name": "自動化テスト",
+        "desc": "➜ Python + Selenium/Katalonによるフロントエンド機能検証。"
+      },
+      "python": {
+        "name": "Python クローラー/RPA",
+        "desc": "➜ WebクローラーとRPAの活用。業務効率を91.7%向上させた実績。"
+      },
+      "php": {
+        "name": "PHP 開発",
+        "desc": "➜ 会員システム、ショッピングカート、CRUDシステムの構築。"
+      },
+      "sql": {
+        "name": "SQL データベース",
+        "desc": "➜ SQLコマンド作成。MySQL、MongoDB、Firebaseの使用経験。"
+      },
+      "data_mining": {
+        "name": "データマイニング / ML",
+        "desc": "➜ Kaggleコンペティション経験。\n➜ 機械学習の基礎知識。"
+      },
+      "other_backend": {
+        "name": "その他の言語",
+        "desc": "➜ Java、C++、VBなどの記述経験。"
+      },
+      "ai_stack": {
+        "name": "AI Agentic 開発",
+        "desc": "➜ 最先端のAI Agent技術に精通：RAG（Retrieval-Augmented Generation）、Multi-agentシステム、Semantic Search。\n➜ AGUI（Agentic GUI）、A2UI（Agent to UI）デザインパターン、ADK、LangChain、MCPプロトコルを活用した次世代AIアプリケーション開発。"
+      },
+      "ai_prompt": {
+        "name": "Prompt & Fine-tuning",
+        "desc": "➜ 高度なPrompt Engineeringテクニック：Chain-of-Thought、Few-shot learning、SDD、System prompts最適化。\n➜ 特定のユースケースに対するLLMファインチューニングとモデル最適化の経験。"
+      },
+      "ai_integration": {
+        "name": "AI システム統合",
+        "desc": "➜ プロダクション級AIアプリケーション構築：Chat AIアシスタント、インテリジェントカスタマーサービス、ドキュメント分析プラットフォーム。\n➜ AIガードレール（Guardrails）実装で安全性とコンプライアンスを確保。\n➜ OCR文字認識、ドキュメント解析、マルチモーダルAI (Vision + Language) 統合。"
+      },
+      "ai_vector": {
+        "name": "Vector DB & Embeddings",
+        "desc": "➜ セマンティック検索のためのベクトルデータベース（Pinecone、Weaviate、Chroma）活用。\n➜ embeddings、類似度検索、RAGパイプライン最適化の理解。"
+      },
+      "cloud_ops": {
+        "name": "GCP クラウドアーキテクチャ",
+        "desc": "➜ Google Cloud Platform（GCP）サービスのデプロイと管理経験。\n➜ Vertex AIを使用したモデルデプロイとファインチューニング。\n➜ Cloud Run、Cloud Functionsを使用したServerlessアーキテクチャ実装。\n➜ Cloud BuildによるCI/CD自動化の統合。"
+      }
+    },
+    "certs": {
+      "title": "保有資格",
+      "digi": "経済部工業局 DIGI⁺ Talent 計画 修了（ECOM）",
+      "mobile": "モバイルアプリ開発者（初級）",
+      "soft_app_b": "コンピュータソフトウェア応用技能検定（乙級）",
+      "ecom": "電子商取引プログラム証明書",
+      "erp": "ERPソフトウェア応用 - 配給モジュール（DingXin）",
+      "assist": "電子ビジネスアシスタントプランナー",
+      "tqc_oop": "TQC オブジェクト指向プログラミング言語",
+      "tqc_ecom": "TQC 電子商取引概論 専門級",
+      "tqc_pm": "TQC プロジェクト管理概論 専門級",
+      "tqc_proj": "TQC Project 2007 上級",
+      "biz_mgmt": "商業管理基礎知識",
+      "stats": "Samsung 統計調査・研究手法アナリスト",
+      "mos": "Microsoft Office Specialist (MOS)",
+      "english": "商業英語能力テスト 4級",
+      "lttc": "LTTC 全民英語能力検定 初級",
+      "accounting": "会計事務 - 情報（丙級）",
+      "soft_app_c": "コンピュータソフトウェア応用（丙級）",
+      "soft_design": "ソフトウェア設計（丙級）",
+      "web_design": "Webデザイン（丙級）",
+      "typing_cn": "TQC 中国語入力 進階級",
+      "typing_en": "TQC 英語入力 実用級"
+    }
+  },
+  "works": {
+    "title": "作品",
+    "disclaimer": "守秘義務契約により、一部の公開可能な個人または練習プロジェクトのみを表示しています。",
+    "render_ok": "レンダリング完了"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "heading": "新規ミッション開始",
+    "link_est": "接続確立済み",
+    "text": "協力する準備はできていますか？ データパケットを送信してください。",
+    "send": "信号送信",
+    "secure": "安全なチャンネルで暗号化中 // SHA-256",
+    "no_logs": "ログは保存されません"
+  },
+  "footer": {
+    "rights": "Designed & Engineered by Chanry",
+    "links": {
+      "github": "GITHUB リポジトリ",
+      "linkedin": "LINKEDIN プロフィール",
+      "source": "ソースコード"
+    }
+  },
+  "sys": {
+    "status": "システム状態: 最適",
+    "loc": "座標: 25.0330° N, 121.5654° E",
+    "fps": "フレームレート: 60FPS"
+  }
+}

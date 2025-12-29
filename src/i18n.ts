@@ -1,8 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import { en } from './locales/en';
-import { zh } from './locales/zh';
-import { ja } from './locales/ja';
+import HttpBackend from 'i18next-http-backend';
 
 // Detect browser language
 const getBrowserLang = () => {
@@ -13,17 +11,21 @@ const getBrowserLang = () => {
 };
 
 i18n
+  .use(HttpBackend) // Use HTTP backend to load translations
   .use(initReactI18next)
   .init({
-    resources: {
-      en: { translation: en },
-      zh: { translation: zh },
-      ja: { translation: ja }
-    },
-    lng: getBrowserLang(), 
+    lng: getBrowserLang(),
     fallbackLng: 'zh',
+    backend: {
+      // Load translations from public/locales directory
+      loadPath: '/locales/{{lng}}.json',
+    },
     interpolation: {
       escapeValue: false
+    },
+    // Wait for translations to load before rendering
+    react: {
+      useSuspense: true
     }
   });
 

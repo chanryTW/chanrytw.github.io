@@ -4,51 +4,111 @@
 
 Chanry 的個人網站，第二代版本（2025）
 
-## 特色
+## ✨ 特色
 
-- React + TypeScript + Vite 前端專案
-- 元件：作品區、技能、經歷、聯絡等
+- ⚡ **高效能架構**：採用 Code Splitting 與 Lazy Loading
+- 🎨 **GSAP 動畫**：結合 ScrollTrigger 打造敘事體驗
+- 🌐 **多語系支援**：中文 / 英文 / 日文切換
+- 🎯 **現代化技術棧**：React 18 + TypeScript + Vite
+- 📱 **響應式設計**：支援所有裝置尺寸
+- 🚀 **效能優化**：
+  - 頁面級別的 Code Splitting
+  - React.lazy() + Suspense 按需加載
+  - 自訂 Loading Fallback 組件
 
-## 技術棧
+## 🛠️ 技術棧
 
-- React
-- TypeScript
-- Vite
+| 類別 | 技術 |
+|------|------|
+| 框架 | React 18.3+ |
+| 語言 | TypeScript |
+| 建構工具 | Vite |
+| 路由 | React Router DOM v6 |
+| 動畫 | GSAP + @gsap/react, Framer Motion |
+| 3D | Three.js + React Three Fiber |
+| 樣式 | TailwindCSS |
+| 國際化 | i18next + react-i18next |
 
-## 快速開始（本機開發）
+## 🚀 快速開始（本機開發）
 
-1. 取得專案
+1. **取得專案**
 
 ```bash
 git clone https://github.com/chanryTW/chanryPortfolioV2.git
 cd chanryPortfolioV2
 ```
 
-2. 安裝套件
+2. **安裝套件**
 
 ```bash
 npm install
 # 或者使用 yarn
-# yarn
+yarn
 ```
 
-3. 啟動開發伺服器
+3. **啟動開發伺服器**
 
 ```bash
 npm run dev
 # 或者
-# yarn dev
+yarn dev
 ```
 
-## 常用指令（package.json scripts）
+開啟瀏覽器並訪問 `http://localhost:3000`
 
-- npm run dev — 本機開發
-- npm run build — 建置生產檔案
-- npm run preview — 在本機預覽建置後的產出
+## 📦 常用指令
 
-## 專案結構（重點檔案）
+| 指令 | 說明 |
+|------|------|
+| `npm run dev` | 啟動本機開發伺服器 |
+| `npm run build` | 建置生產版本 |
+| `npm run preview` | 預覽生產版本 |
+| `npm run deploy` | 部署到 GitHub Pages |
 
-- `App.tsx`, `index.tsx` — 進入點
-- `components/` — 共用 UI 元件
-- `components/sections/` — 各頁區段（About、Works、Contact 等）
-- `locales/` — 多國語系文字（en/ja/zh）
+## 📁 專案結構
+
+```
+chanryPortfolioV2/
+├── index.html              # HTML 入口
+├── vite.config.ts         # Vite 配置
+├── tsconfig.json          # TypeScript 配置
+├── package.json           # 專案依賴
+├── public/                # 靜態資源
+│   └── locales/          # 多語系檔案 (JSON)
+│       ├── en.json       # 英文
+│       ├── zh.json       # 繁體中文
+│       └── ja.json       # 日文
+└── src/                   # 原始碼
+    ├── App.tsx            # 主應用 (路由 + Lazy Loading)
+    ├── index.tsx          # React 入口點
+    ├── i18n.ts            # 國際化配置 (HTTP Backend)
+    ├── types.ts           # TypeScript 型別定義
+    ├── constants.ts       # 常數定義
+    ├── components/        # React 組件
+    │   ├── pages/        # 頁面組件 (Lazy Loaded)
+    │   │   ├── Home.tsx      # 首頁
+    │   │   └── StoryPage.tsx # GSAP 動畫故事頁
+    │   ├── sections/     # 首頁區塊組件
+    │   ├── ui/           # 可重用 UI 組件
+    │   ├── NavBar.tsx    # 導航欄
+    │   ├── Footer.tsx    # 頁尾
+    │   └── ...
+```
+
+## 🎯 頁面路由
+
+| 路徑 | 組件 | 說明 |
+|------|------|------|
+| `/` | Home | 主頁面（Portfolio） |
+| `/story` | StoryPage | GSAP 滾動敘事動畫頁 |
+
+## ⚡ 效能優化策略
+
+1. **Code Splitting**：使用 React.lazy() 將不同頁面分割成獨立的 chunk
+2. **Lazy Loading**：按需加載頁面組件，減少初始加載時間
+3. **Suspense**：提供優雅的載入狀態
+4. **Tree Shaking**：Vite 自動移除未使用的代碼
+
+## 📄 授權
+
+個人專案，僅供參考學習使用。
