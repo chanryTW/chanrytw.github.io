@@ -208,21 +208,39 @@ const ExperienceSection = () => {
     const experiences = Object.values(expItems || {});
 
     useGSAP(() => {
-        if (!sliderRef.current) return;
-        const totalWidth = sliderRef.current.scrollWidth;
-        const viewportWidth = window.innerWidth;
+        if (!sliderRef.current || !containerRef.current) return;
 
-        gsap.to(sliderRef.current, {
-            x: -(totalWidth - viewportWidth + 100),
-            ease: "none",
-            scrollTrigger: {
-                trigger: containerRef.current,
-                pin: true,
-                scrub: 1,
-                end: () => "+=" + totalWidth,
-            }
+        // Wait for next frame to ensure DOM is fully rendered
+        requestAnimationFrame(() => {
+            if (!sliderRef.current || !containerRef.current) return;
+
+            const totalWidth = sliderRef.current.scrollWidth;
+            const viewportWidth = window.innerWidth;
+
+            const scrollTween = gsap.to(sliderRef.current, {
+                x: -(totalWidth - viewportWidth + 100),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: containerRef.current,
+                    pin: true,
+                    scrub: 1,
+                    end: () => "+=" + totalWidth,
+                    invalidateOnRefresh: true,
+                    anticipatePin: 1,
+                }
+            });
+
+            // Force refresh after a short delay to recalculate after fonts/styles load
+            const timeoutId = setTimeout(() => {
+                ScrollTrigger.refresh();
+            }, 100);
+
+            return () => {
+                clearTimeout(timeoutId);
+                scrollTween.kill();
+            };
         });
-    }, { scope: containerRef });
+    }, { scope: containerRef, dependencies: [experiences.length] });
 
     return (
         <div ref={containerRef} className="h-screen flex flex-col justify-center bg-black overflow-hidden relative">
