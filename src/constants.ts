@@ -216,6 +216,15 @@ export const CERTIFICATIONS: Certification[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "laofu_fleet",
+    size: "lg",
+    title: "老夫子計程車行管理系統",
+    description: "專為計程車行打造的智慧管理系統。整合車牌管理、司機管理、罰單追蹤與財務報表，提升營運效率。",
+    tags: ["獨立開發", "獨立設計", "GCP", "Vertex AI", "resend", "better-auth", "minio", "prisma", "postgresql", "nestjs", "藍新金流", "ReactEmail", "React", "shadcn"],
+    imageUrl: "/image/works/laofu.png",
+    link: "https://laofufleet.com/",
+  },
+  {
     id: "cathay_mybank",
     size: "md",
     title: "Cathay Mybank 國泰世華網路銀行",

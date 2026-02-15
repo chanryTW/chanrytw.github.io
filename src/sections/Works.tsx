@@ -21,7 +21,10 @@ export const Works: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {PROJECTS.map((project, idx) => (
-            <RevealOnScroll key={project.id} delay={idx * 0.1} className={project.size === 'md' ? 'lg:col-span-2' : ''}>
+            <RevealOnScroll key={project.id} delay={idx * 0.1} className={
+              project.size === 'lg' ? 'lg:col-span-3' :
+                project.size === 'md' ? 'lg:col-span-2' : ''
+            }>
               <div className="group relative h-full">
                 <GlassCard noPadding className="h-[400px] overflow-hidden group-hover:border-cyan-500/60 transition-all duration-500 bg-[#05050a]">
                   {/* Image Container */}
@@ -29,7 +32,7 @@ export const Works: React.FC = () => {
                     <img
                       src={project.imageUrl}
                       alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-50"
+                      className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-50"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a12] via-[#0a0a12]/50 to-transparent" />
                   </div>
