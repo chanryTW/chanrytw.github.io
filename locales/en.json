@@ -9,7 +9,6 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "SYSTEM ONLINE // WELCOME",
     "role": "Senior Front-End Engineer | Fullstack | AI",
     "subtitle": "A creator passionate about frontend applications. Expert in developing React & Angular SaaS systems, integrating GenAI, RAG, and GCP technologies for intelligent solutions. Experience includes: Cathay Online Banking, Robo Invest, ESG Carbon Asset Management, and diverse Enterprise/SCM systems.",
     "cta": "ACCESS PROJECTS",
@@ -248,6 +247,7 @@
     },
     "certs": {
       "title": "CERTIFICATIONS",
+      "bank_audit": "TABF Bank Internal Control & Internal Audit Examination (Consumer Finance)",
       "digi": "DIGI+ Talent Program (ECOM) - Industrial Bureau",
       "mobile": "Mobile App Developer (Junior)",
       "soft_app_b": "Computer Software Application (Level B)",
