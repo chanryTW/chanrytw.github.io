@@ -27,12 +27,6 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="order-1 lg:order-1 relative"
         >
-          {/* Decorative Label with GREEN DOT */}
-          <div className="inline-flex items-center gap-3 px-4 py-2 border border-green-500/30 bg-green-900/10 mb-10 backdrop-blur-sm">
-            <span className="w-2 h-2 bg-green-500 animate-pulse rounded-full shadow-[0_0_10px_#22c55e]" />
-            <span className="text-xs font-mono text-green-400 tracking-[0.2em]">{t('hero.greeting')}</span>
-          </div>
-
           <h1 className="text-6xl md:text-8xl font-bold font-display leading-[0.9] mb-8 tracking-tighter">
             Hello <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-white to-purple-500 text-glow block mt-2">I'm CHANRY</span>

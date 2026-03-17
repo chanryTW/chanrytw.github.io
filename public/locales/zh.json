@@ -9,7 +9,6 @@
     "contact": "派發任務"
   },
   "hero": {
-    "greeting": "連線中 // 歡迎派發任務",
     "role": "資深前端工程師 | 全端 | AI 應用開發",
     "subtitle": "一位熱愛開發應用的創作者。擅長開發 React(~19)、Angular(JS~19) 多平台 SaaS 系統，並使用 ADK/LangChain 打造 AI 應用。專案經歷包含：國泰網路銀行、國泰智能投資、ESG碳資產管理、EIP企業入口、SCM供應鏈管理等。",
     "cta": "瞭解更多",
@@ -248,6 +247,7 @@
     },
     "certs": {
       "title": "許可證",
+      "bank_audit": "金訓院 銀行內部控制與內部稽核測驗(消費金融)",
       "digi": "經濟部工業局DIGI⁺ Talent計畫之結訓研習生(ECOM)",
       "mobile": "行動裝置程式設計師（初級）學程證明",
       "soft_app_b": "電腦軟體應用技能檢定（乙級）學程證明",
@@ -262,7 +262,7 @@
       "stats": "三星統計調查與研究方法分析師",
       "mos": "Microsoft Office Specialist 國際Office證照",
       "english": "中華民國商業職業教育學會英語能力測驗第四級",
-      "lttc": "LTTC 全民英語能力分級檢定測驗初級初試",
+      "lttc": "LTTC 全民英語能力分級檢定測驗初級",
       "accounting": "中華民國技術士證會計事務-資訊丙級",
       "soft_app_c": "中華民國技術士證電腦軟體應用丙級",
       "soft_design": "中華民國技術士證電腦軟體設計丙級",

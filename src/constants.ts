@@ -191,6 +191,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 ];
 
 export const CERTIFICATIONS: Certification[] = [
+  { id: "c0", name: "skills.certs.bank_audit" },
   { id: "c1", name: "skills.certs.digi" },
   { id: "c2", name: "skills.certs.mobile" },
   { id: "c3", name: "skills.certs.soft_app_b" },
